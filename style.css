@@ -180,3 +180,77 @@ body {
     transform: translate(-50%, -50%) scale(1);
   }
 }
+/* =========================
+   📱 MOBILE RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero {
+    padding: 0 20px;
+    height: 100vh;
+  }
+
+  .hero h1 {
+    font-size: 3.2rem;   /* Elias plus grand */
+    text-align: center;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .hero span {
+    font-size: 0.9rem;
+  }
+
+  .primary-btn {
+    font-size: 1rem;
+    padding: 14px 28px;
+  }
+
+  .love-panels {
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+  }
+
+  .love-card {
+    font-size: 1.1rem;
+    padding: 40px 0;
+  }
+
+  .interaction-zone h2 {
+    font-size: 1.6rem;
+  }
+
+  .love-btn {
+    font-size: 0.95rem;
+    padding: 12px 24px;
+  }
+
+  .big-heart {
+    font-size: 5rem;
+  }
+
+  .letter {
+    padding: 40px 20px;
+  }
+
+  .love-text {
+    font-size: 1.2rem;
+    line-height: 2.1;
+  }
+
+  .signature {
+    font-size: 1.1rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
+
